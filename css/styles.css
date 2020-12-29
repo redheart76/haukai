@@ -19,14 +19,14 @@ body,html{
 	float:left;
 	margin: 2em 0 0 2em;
 	}
-	.banner-info{
+.banner-info{
 		background: url(../images/line-2.png) no-repeat 439px 154px;
 		width:100%;
 		height:410px;
 		display:block;
 		padding: 23em 0 31.5em 34em;
 		}
-	.banner-info h2{
+.banner-info h2{
 		font-size:25px;
 		font-weight:800;
 		margin:0;
@@ -37,13 +37,13 @@ body,html{
 		font-family: 'Raleway', sans-serif;
 		padding: 16px 0;
 		}
-	.banner-info h1 span{
+.banner-info h1 span{
 		background: url(../images/w-l.png) no-repeat 0px 82px;
 		width: 50px;
 		height: 45px;
 		padding: 0 0 24px 9px;
 		}
-	.banner-info p{
+.banner-info p{
 		font-size:35px;
 		font-weight: 600;
 		margin: 1.5em 0 0 0em;
@@ -59,7 +59,7 @@ body,html{
 	}
 .top-nav ul li{
 	display:inline-block;
-	float: left;
+	
 	}
 .top-nav ul li a{
 	font-size:16px;
