@@ -104,7 +104,7 @@ body,html{
 	font-size:35px;
 		font-weight: 500;
 		margin-left: 20em;
-		color:#fff;
+		color:rgb(104, 113, 230);
 	}
 .contact_page p{
 	    
@@ -118,7 +118,7 @@ body,html{
 			font-size:35px;
 			font-weight: 500;
 			margin-left: 20em;
-			color:#fff;
+			color:rgb(104, 113, 230);
 			}
 .hours_page p{
 				
@@ -165,6 +165,37 @@ body,html{
 	margin-left: 10em;
 	color:#fff; 
 }
+.booking p{
+	font-size:30px;
+	margin-top: -5em;
+	margin-left: 10em;
+	color:#fff;
+}
+.reservations_page p{
+	font-size:25px;
+		font-weight: 100;
+		margin-left: 25em;
+		color:#fff;
+
+}
+.reservation {
+	position: relative;
+	width: 100%;
+	height:0;
+	padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) --> this creates gap*/
+	text-align: center;
+	}
+	/* Then style the iframe to fit in the container div with full height and width */
+	.responsive_reservation {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	border:0;
+	}
 /* map */
 .map{
 	 margin-left: 30em;
