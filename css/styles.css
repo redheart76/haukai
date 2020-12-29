@@ -216,6 +216,20 @@ body,html{
    margin-left: 8.8em;
 }
 
+.privacy{
+	
+	text-align: center;
+	}
+
+.privacy_title {
+	text-align: center;
+}
+.copyright{
+	font-size: small; 
+	margin-bottom: 10px;
+	text-align: center;
+	}
+	
 
 /*[ Button3 ]
 ///////////////////////////////////////////////////////////
