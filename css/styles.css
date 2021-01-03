@@ -1,3 +1,4 @@
+
 body,html{
 	padding:0px;
 	margin:0px;
@@ -63,7 +64,7 @@ body,html{
 	}
 .top-nav ul li a{
 	font-size:16px;
-	color:#fff;
+	color:rgb(58, 115, 189);
 	padding: 1.5em 4.5em;
 	border-right:2px solid #fff;
 	}
@@ -75,14 +76,14 @@ body,html{
 
 
 .descriptions h2{
-	margin-top: -15em;
-	margin-bottom: 10em;
-	margin-left: 18em;
+	margin-top: 0em;
+	text-align: center;
+	font-style: italic;
 
 }
 .descriptions p{
-	margin-top: 0em;
-	margin-left: 35em;
+	margin-top: 2em;
+	text-align: center;
 }
 /* Menu page header*/
 .background_image{
@@ -113,7 +114,7 @@ body,html{
 	
 			font-size:35px;
 			font-weight: 500;
-			margin-left: 20em;
+			text-align: center;
 			color:rgb(104, 113, 230);
 			}
 .hours_page p{
@@ -139,6 +140,16 @@ body,html{
 			margin: 1em;
 			text-align: center;
 			color:rgb(18, 129, 219); 
+}
+.menu_page h4{
+	        font-style:italic;
+	        font-size:16px;
+			font-weight: 500;
+			text-align: center;
+			
+			
+			color:rgb(165, 9, 22);
+
 }
 
 .menu_page p{
@@ -194,7 +205,7 @@ body,html{
 	}
 /* map */
 .map{
-	 margin-left: 30em;
+	 margin-left: 35em;
 	 margin-right: 50m;
 	 margin-top: 0em;
 	 margin-bottom: 0em;
@@ -210,10 +221,10 @@ body,html{
 	margin-bottom: 0em;
 }
 .calendar h2{
-	margin-left: 4.5em;
+	text-align: center;
 }
 .calendar_responsive h2{
-   margin-left: 8.8em;
+   margin-left: -3em;
 }
 
 .privacy{
@@ -229,17 +240,12 @@ body,html{
 	margin-bottom: 10px;
 	text-align: center;
 	}
-	
+.my_footer {
+		bottom:0;
+		width:100%;
+		height: auto;
+		text-align: left;
+		padding: 2%;
+		color: rgb(89, 13, 231);
+		}
 
-/*[ Button3 ]
-///////////////////////////////////////////////////////////
-*/
-.btn3 {
-  background: #00c0da;
-  border-radius: 10px;
-}
-
-.btn3:hover {
-  background-color: #ec1d25;
-  color: white;
-}
