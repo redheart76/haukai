@@ -50,14 +50,7 @@ body,html{
 		margin: 1.5em 0 0 0em;
 		color:#fff;
 		}
-/* For mobile devices ---*/
-@media only screen and (max-width: 600px) {
-	
-	.w3-card{
-	   width:90%;
-	   margin: 5%;
-	}
-   }
+
 .top-nav ul{
 	margin:0px;
 	padding:0px;
@@ -81,7 +74,23 @@ body,html{
 	background:#fff;
 	}
 
-
+/* formatting images on the index page*/
+.descriptions picture{
+	width: 60%;
+	height: auto;
+	padding-top:0;
+	text-align: center;
+	padding:0;
+	margin:30%;
+	}
+	/* For mobile devices ---*/
+@media only screen and (max-width: 600px) {
+	
+	.descriptions{
+	   width:90%;
+	   margin: 5%;
+	}
+   }
 .descriptions h2{
 	margin-top: 0em;
 	text-align: center;
@@ -93,7 +102,7 @@ body,html{
 	margin-top: 2em;
 	text-align: center;
 }
-/* Menu page header*/
+/* page header*/
 .background_image{
 	background:url(../images/main_image.jpg) no-repeat 0px 0px;
 	
@@ -200,9 +209,9 @@ body,html{
 }
 .reservations_page p{
 	font-size:25px;
-		font-weight: 100;
-		margin-left: 25em;
-		color:#fff;
+	font-weight: 100;
+	margin-left: 22em;
+	color:rebeccapurple;
 
 }
 .reservation {
