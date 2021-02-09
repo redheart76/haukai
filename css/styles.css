@@ -56,7 +56,7 @@ body,html{
 	padding:0px;
 	}
 .top-nav {
-	margin-left: 13em;
+	margin-left: 8em;
 	}
 .top-nav ul li{
 	display:inline-block;
@@ -136,10 +136,10 @@ body,html{
 		color:rgb(7, 3, 3);
 		}
 .hours p{
-			font-size:30px;
-			margin-top: -5em;
-			margin-left: 10em;
-			color:#fff;
+	font-size:30px;
+	margin-top: -5em;
+	margin-left: 10em;
+	color:#fff;
 		}
 .hours_page h2{
 	
